@@ -1,0 +1,8 @@
+first_item=float(input('Enter the first items price: '))
+second_item=float(input('Enter the second items price: '))
+third_item=float(input('Enter the third items price: '))
+fourth_item=float(input('Enter the fourth items price: '))
+fifth_item=float(input('Enter the fifth items price: '))
+print(f'Your subtotal is {first_item+second_item+third_item+fourth_item+fifth_item:,.2f}')
+print(f'Your sales tax is {(first_item+second_item+third_item+fourth_item+fifth_item)*0.07:,.2f}')
+print(f'Your total is {((first_item+second_item+third_item+fourth_item+fifth_item)*0.07)+(first_item+second_item+third_item+fourth_item+fifth_item):,.2f}')
