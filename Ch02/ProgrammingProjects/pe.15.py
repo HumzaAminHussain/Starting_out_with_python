@@ -41,6 +41,22 @@ turtle.goto(195,150)
 
 
 ## Three Dimensial isomorphic view of transparent box
-
-
+startX = -210
+startY = 100
+side = 50
+turtle.penup()
+turtle.goto(startX,startY)
+turtle.pendown()
+turtle.goto(startX,(startY-side))
+turtle.goto((startX+side),(startY-side))
+turtle.goto(startX,startY)
+turtle.goto(startX,(startY-side))
+turtle.goto((startX+side),(startY-side))
+turtle.goto((startX+side),startY)
+turtle.goto(startX,startY)
+turtle.goto((startX+side),(startY-side))
+turtle.goto((startX+(2*side)),(startY-side))
+turtle.goto((startX+side),startY)
+turtle.goto((startX+side),startY-2*side)
+turtle.goto(startX,(startY-side))
 turtle.done()
