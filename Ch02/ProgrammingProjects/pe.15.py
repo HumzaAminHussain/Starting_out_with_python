@@ -59,4 +59,6 @@ turtle.goto((startX+(2*side)),(startY-side))
 turtle.goto((startX+side),startY)
 turtle.goto((startX+side),startY-2*side)
 turtle.goto(startX,(startY-side))
+turtle.goto((startX+side),startY-2*side)
+
 turtle.done()
