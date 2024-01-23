@@ -1,5 +1,6 @@
 import turtle
 import math
+turtle.speed(5)
 #print(math.sqrt(4**2 + 3**2))
 
 #Beging Drawing One (Two Diamonds)
@@ -59,6 +60,18 @@ turtle.goto((startX+(2*side)),(startY-side))
 turtle.goto((startX+side),startY)
 turtle.goto((startX+side),startY-2*side)
 turtle.goto(startX,(startY-side))
-turtle.goto((startX+side),startY-2*side)
-
+turtle.goto(startX+side,startY-2*side)
+turtle.goto(startX+(2*side),startY-2*side)
+turtle.goto(startX+(2*side),(startY-2*side+side))
+turtle.goto(startX+(2*side),startY-2*side)
+turtle.goto((startX+side),(startY-side))
+# five interconnecting circles
+turtle.penup()
+startX=95
+startY=80
+side=75
+turtle.goto(startX,startY)
+turtle.pendown()
+turtle.circle(27)
+turtle.goto((startX+side),startY)
 turtle.done()
