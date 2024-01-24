@@ -1,6 +1,6 @@
 import turtle
 import math
-turtle.speed(5)
+turtle.speed(0)
 #print(math.sqrt(4**2 + 3**2))
 
 #Beging Drawing One (Two Diamonds)
@@ -69,9 +69,46 @@ turtle.goto((startX+side),(startY-side))
 turtle.penup()
 startX=95
 startY=80
-side=75
+side=70
+radius=27
 turtle.goto(startX,startY)
 turtle.pendown()
-turtle.circle(27)
+turtle.circle(radius)
+turtle.penup()
 turtle.goto((startX+side),startY)
+turtle.pendown()
+turtle.circle(radius)
+turtle.penup()
+turtle.goto((startX+side),startY)
+turtle.pendown()
+turtle.circle(radius)
+turtle.penup()
+turtle.goto((startX+side+side),startY)
+turtle.pendown()
+turtle.circle(radius)
+turtle.penup()
+turtle.goto(startX,startY)
+turtle.goto((startX+35),(startY-22.5))
+turtle.pendown()
+turtle.circle(radius)
+turtle.penup()
+turtle.goto(startX,startY)
+turtle.goto((startX+35+side),(startY-22.5))
+turtle.pendown()
+turtle.circle(radius)
+# compass that shows north, south, east, and west 
+turtle.penup()
+startX = -155
+startY = -160
+side=65 
+radius=15   
+turtle.goto(startX,startY) 
+turtle.goto((startX-10),(startY+13))
+turtle.pendown()
+turtle.circle(radius)
+turtle.penup()
+turtle.goto(startX,startY)
+turtle.pendown()
+turtle.goto(startX,(startY+side))
+
 turtle.done()
