@@ -22,7 +22,7 @@ if avarage >= HIGH_SCORE:
     print('That is a great average!')
 
 if test1 == test2:
-    print("test 1 and test 2 are the same")
+    print("Test 1 and test 2 are the same")
 
 if test3 != test2:
-    print("test 2 and test 3 are not the same")
+    print("Test 2 and test 3 are not the same")
