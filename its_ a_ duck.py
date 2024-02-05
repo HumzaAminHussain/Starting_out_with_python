@@ -151,6 +151,13 @@ turtle.right(210)
 turtle.forward(15)
 turtle.circle(7)
 turtle.end_fill()
+turtle.penup()
+turtle.pencolor("black")
+turtle.fillcolor('black')
+turtle.forward(200)
+turtle.write('thank you')
+
+turtle.end_fill()
 
 
 turtle.done()
