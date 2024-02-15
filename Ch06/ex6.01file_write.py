@@ -2,7 +2,7 @@ print("testing1")
 def main():
     outfile = open('philosophers.txt','w')
     outfile.write('John Locke\n')
-    outfile.write('Zavid Hume\n')
+    outfile.write('David Hume\n')
     outfile.write('Edmund Burke\n')
     outfile.close()
     print("testing1")
