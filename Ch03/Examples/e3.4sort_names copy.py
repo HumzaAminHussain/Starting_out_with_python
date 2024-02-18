@@ -7,10 +7,11 @@ while flag:
         print(name1)
         print(name2)
         flag = False
-    elif name2 < name1:
+    if name2 < name1:
         print('Here are the name, listed alphabetically.')
         print(name2)
         print(name1)
         flag = False
     else:
         print('The names are the same, please put different names.')
+print("end program")
