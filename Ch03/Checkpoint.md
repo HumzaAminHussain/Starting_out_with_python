@@ -23,5 +23,15 @@ decision structure is a decision structure that only has one alternet path.
 this is my answer.
 a Boolean expression are The expressions that are tested by the if statement.
 
-## 3.5
-**w
+## 3.13
+*Convert the following code to an if-elif-else statement:*
+
+if number == 1 
+    print('One')
+elif number == 2
+      print('One')
+elif number == 3
+      print('Three')
+else:
+    print('Unknown')
+
