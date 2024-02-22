@@ -13,4 +13,4 @@ if salary >= MIN_SALARY:
 else:
     print(f'You must earn at least $'
           f'{MIN_SALARY:,.2f} '
-          f'per year to qualify.')            
+          f'per year to qualify.')          
