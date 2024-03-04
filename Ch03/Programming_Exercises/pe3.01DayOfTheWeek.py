@@ -15,4 +15,4 @@ elif number == 6:
 elif number == 7:
     print('Sunday.')
 else:
-    print("ERROR: You entered a number out side of the rage 1-7.")
+    print("ERROR: You entered a number out side of the range 1-7.")
