@@ -17,4 +17,5 @@ elif package >= 100:
     print(f'The discount is {discount}%.')
     print(f'The total is {(totalpackage-(totalpackage*.4)):.2f}.')
 else:
+    print('There is no discount.')
     print(f'the total is {totalpackage:.2f}.')
