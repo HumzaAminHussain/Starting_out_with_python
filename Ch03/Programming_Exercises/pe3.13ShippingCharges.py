@@ -1,9 +1,9 @@
-Weight = float(input('How much does the package weigh in pounds: '))
-if Weight <= 2:
-    print('The shipping charge is $1.50 .')
-elif Weight >= 3 and Weight <= 5:
-    print('The shipping charge is $3.00 .')
-elif Weight >= 7 and Weight <= 10:
-    print('The shipping charge is $4.00 .')
-elif Weight >= 11:
-    print('The shipping charge is $4.75 .')
+weight = float(input('How much does the package weigh in pounds: '))
+if weight <= 2:
+    print(f'To ship this item you need ${1.50*weight} .')
+elif weight >= 3 and weight <= 6:
+    print(f'To ship this item you need ${3.00*weight} .')
+elif weight >= 7 and weight <= 10:
+    print(f'To ship this item you need ${4.00*weight} .')
+elif weight >= 11:
+    print(f'To ship this item you need ${4.75*weight} .')
